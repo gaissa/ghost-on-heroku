@@ -1,0 +1,3 @@
+[submodule "content/themes/shade-ghost-theme"]
+	path = content/themes/shade-ghost-theme
+	url = https://github.com/gaissa/shade-ghost-theme
