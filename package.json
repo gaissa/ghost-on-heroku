@@ -1,10 +1,10 @@
 {
   "name": "ghost-on-heroku",
-  "description": "Just a blogging platform on Heroku.",
+  "description": "Just a Ghost blogging platform on Heroku.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cobyism/ghost-on-heroku.git"
+    "url": "git://github.com/gaissa/ghost-on-heroku.git"
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
