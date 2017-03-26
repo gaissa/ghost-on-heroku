@@ -20,8 +20,7 @@
     "node": "4.x.x"
   },
   "scripts": {
-    "postinstall": "ncp node_modules/casper content/themes/casper",
-	"postinstall": "git+https://git@github.com/gaissa/shade-ghost-theme.git content/themes/shade"",
+    "postinstall": "ncp node_modules/casper content/themes/casper && ncp git+https://git@github.com/gaissa/shade-ghost-theme.git",
     "start": "node server.js"
   }
 }
