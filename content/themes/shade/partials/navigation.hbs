@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <nav class="navbar">
+        <button class="navbar-toggler pull-xs-right" type="button" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="navbar-side">
+          {{#foreach navigation}}
+            <li class="navbar-side-item">
+              <a href="{{url absolute="true"}}">{{label}}</a>
+            </li>
+          {{/foreach}}
+        </ul>
+        <div class="overlay"></div>
+      </nav>
+    </div>
+  </div>
+</div>
